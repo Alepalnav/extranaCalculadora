@@ -133,7 +133,7 @@ button {
 		result="";
 	}
 	if(operador!=null&&numeroStr!=null){
-		result+=operador+numeroStr;
+		result+=numeroStr+operador;
 	}
 	if(request.getParameter("borrar")!=null){
 		result="";
@@ -143,8 +143,6 @@ button {
 	}
 	
 	
-	
-
 	
 	%>
 	 <div id="general" class="card shadow">
